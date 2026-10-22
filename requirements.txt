@@ -1,0 +1,9 @@
+# Inference dependencies; exact training-time versions were not supplied.
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+lightgbm
+torch
+joblib

@@ -1,0 +1,19 @@
+{
+    "train_normal_count": 184737,
+    "feature_count": 58,
+    "if_n_estimators": 500,
+    "if_max_samples": 4096,
+    "best_ae": "DAE_latent16_top10",
+    "best_ae_latent": 16,
+    "best_ae_score_type": "top10",
+    "if_weight": 0.9500000000000001,
+    "ae_weight": 0.04999999999999993,
+    "if_ae_correlation": 0.2639344048403687,
+    "valid_pr_auc": 0.13519536204765725,
+    "valid_roc_auc": 0.6034582310274403,
+    "valid_f1": 0.1976687373490612,
+    "valid_precision": 0.16193961573650503,
+    "valid_recall": 0.25362708221386354,
+    "valid_threshold": 0.7677852511405945,
+    "test_used_for_selection": false
+}

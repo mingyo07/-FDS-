@@ -1,0 +1,17 @@
+{
+  "weights": {"ml": 0.55, "dl": 0.25, "anom": 0.20},
+  "threshold_operating": 0.531900,
+  "threshold_newuser_ref": 0.465200,
+  "valid_full_F1": 0.8329,
+  "valid_new_F1": 0.2385,
+  "test_full_F1": 0.8347,
+  "test_new_F1": 0.3150,
+  "anom_kwargs": {"if_mode": "neg_score_samples", "ae_k": 6, "ae_agg": "topk_mean"},
+  "anom_reproduction": {
+    "verdict": "근사재현(순위보존)",
+    "spearman": {"if": 1.0, "ae": 0.99998, "anom": 0.99979},
+    "max_abs_err": 0.06,
+    "note": "이상탐지 축 재현 점수는 담당자 원 산출 대비 절대오차 최대 0.06(전처리 세부 차이), 순위 완전 보존. 결합 가중치 0.20 반영 시 최종 점수 영향 ±0.012 이내."
+  },
+  "frozen_at": "2026-08-26 valid 기준 동결, 2026-08-27 test 1회 확정. 이후 변경 금지."
+}
